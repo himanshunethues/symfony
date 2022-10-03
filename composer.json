@@ -7,6 +7,9 @@
         "php": ">=7.2.5",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "doctrine/annotations": "^1.13",
+        "friendsofsymfony/rest-bundle": "^3.4",
+        "jms/serializer-bundle": "^4.2",
         "symfony/console": "5.4.*",
         "symfony/dotenv": "5.4.*",
         "symfony/flex": "^1.17|^2",
@@ -15,6 +18,7 @@
         "symfony/yaml": "5.4.*"
     },
     "require-dev": {
+        "symfony/maker-bundle": "^1.43"
     },
     "config": {
         "allow-plugins": {
@@ -60,7 +64,7 @@
     },
     "extra": {
         "symfony": {
-            "allow-contrib": false,
+            "allow-contrib": true,
             "require": "5.4.*"
         }
     }
